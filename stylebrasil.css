@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    color: #4382DF;
+}
+
+.destino {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.destino img {
+    width: 400px;
+}
+
+.destino p {
+    font-size: 18px;
+    line-height: 1.6;
+}
