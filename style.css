@@ -25,7 +25,7 @@ img {
 }
 
 body {
-    background-color: #eaf8ff;
+    background-color: #C4E2F5;
     height: 100vh;
 }
 
@@ -74,7 +74,7 @@ footer p {
     font-size: 40px;
 }
 
-h3 {
+h5 {
     text-align: center;
 }
 
@@ -99,4 +99,25 @@ h3 {
 
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.introducao {
+    font-size: 25px;
+    display: flex;
+    margin: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.resposta {
+    font-size: 18px;
+}
+
+.Destinos {
+    margin: 20px;
+    font-size: 25px;
 }
