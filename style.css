@@ -67,7 +67,7 @@ body {
 }
 
 footer {
-    background-color: #003366;
+    background-color: #003B95;
     color: white;
     text-align: center;
     padding: 15px;
@@ -140,3 +140,54 @@ h5 {
     font-size: 14px;
     font-family: var(--fonte-principal);
 }
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #003B95;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+
+    border-radius: 0px 0px 0px 0px;
+    padding: 10px;
+}
+
+.brasil {
+    width: 30px;
+}
+
+.logosite {
+    width: 100px;
+    display: block;
+    height: auto;
+}
+
+/* .brasil {
+    width: 40px;
+    
+}
+
+.logosite {
+    display: block;
+    margin: 0 auto;
+
+    height: 100px;
+
+} */
+
+
